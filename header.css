@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.left-section {
+    justify-content: start;
+    margin-left: 120px;
+    
+}
+
+.left-section .profile-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.right-section {
+    width: 180px;
+    margin-right: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+}
+
+
+.profile {
+    width: 61px;
+    height: 61px;
+    margin-right: 18.55px;
+    border-radius: 50%;
+}
+
+.tooltip {
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.right-section button {
+    padding: 12px 24px;
+    border-radius: 24px;
+    color: #00470F;
+    background: #B1F08B;
+    backdrop-filter: blur(19px);
+    border: none;
+    cursor: pointer;
+    border-radius: 24px;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
