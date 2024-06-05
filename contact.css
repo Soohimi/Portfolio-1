@@ -49,6 +49,8 @@
     font-weight: 400;    
     margin-left: 230px; 
     /*in dorost bayad beshe*/
+    overflow-x: hidden; /* Hide horizontal overflow */
+
 }
 
 .middle button {
