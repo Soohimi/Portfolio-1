@@ -1,3 +1,771 @@
-.body {
+.header {
+    display: flex;
+    width: 75%;
+    /* background-color: #adff2f; */
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    margin: 0 auto;
+    /* margin-left: 8%;
+    margin-right: 8%; */
+    /* text-align: center;
     font-family: "SF Pro Display";
+    font-size: 1rem;
+    margin: auto;
+    flex-wrap: nowrap; */
+    margin-bottom: 136px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: pink; */
+    font-size: 1rem;
+    font-family: "SF Pro Display";
+    gap: 32px;
+    flex-grow: 1; 
+    order: 1; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    /* margin-left: 14%; */
+}
+
+.profile-icon {
+    border-radius: 50px;
+    width: 3.813rem;
+    height: 3.813rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px;
+    transition: 0.5s;
+}
+
+.profile-icon:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    margin-left: -14px;
+    margin-right: 8px;
+    width: 131.551px;
+}
+
+.resume {
+    margin-right: 32px;
+    color: #202125;
+    transition: 0.5s;
+}
+
+.resume:hover {
+    Cursor: pointer;
+    color: #7D7D7D;
+}
+
+.tooltip {
+    color: #202125;
+    transition: 0.5s;
+}
+
+.tooltip:hover {
+    Cursor: pointer;
+    color: #7D7D7D;
+}
+
+.left-section {
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1; 
+    order: 2; 
+    
+}
+
+.contact-button {
+    font-size: 1rem;
+    font-family: "SF Pro Display";
+    border: none;
+    padding: 16px 32px;
+    /* justify-content: flex-end; */
+    border-radius: 24px;
+    background: var(--as, #B1F08B);
+    backdrop-filter: blur(19px);
+    color: var(--sds, #00470F);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
+}
+
+.contact-button:hover {
+    color: var(--as, #B1F08B);
+    background: var(--sds, #00470F);
+
+}
+
+.title-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* background-color: red; */
+    /* height: 102px; */
+    margin: auto;
+}
+
+.design {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 6.25rem;
+    font-weight: 700;
+    line-height: 119.455%; /* 119.455px */
+    letter-spacing: -2px;
+    white-space: nowrap; 
+    margin-bottom: 0;
+}
+
+.design-continer {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column; 
+
+}
+
+.save {
+    padding: 16px ;
+    border-radius: 24px;
+    background: #B1F08B;
+    backdrop-filter: blur(19px);
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+
+}
+
+.design-p {
+    display: flex;
+    width: 57%;
+    /* background-color: aqua; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center; 
+    margin: auto;
+    margin-top: 2rem;
+    color: #7D7D7D;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.design-button {
+    display: flex;
+    padding: 16px 32px;
+    border-radius: 88px;
+    background: var(--as, #B1F08B);
+    backdrop-filter: blur(19px);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: var(--sds, #00470F);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: 0.5s;
+}
+
+.design-button:hover {
+    background:  var(--sds, #00470F);;
+
+    color: var(--as, #B1F08B);
+
+}
+
+
+
+.earth {
+    width: 70%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+} 
+
+
+.project {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+}
+
+.project-title {
+    display: flex;
+    margin-top: 88px;
+}
+
+.time-circle {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    /* background-color: #B1F08B; */
+    margin-top: 27px;
+}
+
+.recent {
+    color: #1B1E1A;
+    font-family: "SF Pro Display";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 119.455%; /* 57.339px */
+    letter-spacing: -0.96px;
+    justify-content: center;
+    /* background-color: pink; */
+    white-space: nowrap; 
+    margin-bottom: 0;
+}
+
+.project-lorem {
+    color: #7D7D7D;
+    font-family: "SF Pro Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    height: 4rem;
+    width: 53%;
+}
+
+
+
+
+.project-example {
+    display: flex;
+    flex-direction: row;
+    /* background-color: pink; */
+    width: 100%;
+    gap: 2rem;
+}
+
+.project-works {
+    width: 100%;
+    height: auto;
+    position: relative ;
+    }
+
+.project-works img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.project-works img:hover {
+    opacity: 80%;
+    
+}
+
+.overlay-text {
+    position: absolute;
+    font-size: 1rem; 
+    /* background-color: aqua; */
+    align-self: flex-end;
+    left: 24px;
+    bottom: 16px;
+    white-space: nowrap;
+    color: #FFF;
+    font-family: "SF Pro Display";
+    font-size: 1 rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 119.455%; /* 28.669px */
+    letter-spacing: -0.48px;
+}
+
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.client {
+    display: flex;
+    width: 70%;
+    height: auto;
+    /* background-color: #adff2f; */
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.client-left {
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    /* background-color: aqua; */
+
+}
+
+.client-text {
+    display: flex;
+    color: #202125;
+    font-family: "SF Pro Display";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.96px;
+    /* background-color: pink; */
+}
+
+.client-lorem {
+    color: #7D7D7D;
+    font-family: "SF Pro Display";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.client-right {
+   display: flex;
+   gap: 1rem;
+   align-self: flex-end;
+   margin-bottom: 15px;
+}
+
+.button-left {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #E9E9E9;
+    border: none;
+    backdrop-filter: blur(19px);
+    font-size: 1.2rem;
+}
+
+.button-right {
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #E9E9E9;
+    border: none;
+    backdrop-filter: blur(19px);
+    font-size: 1.2rem;
+
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    width: 47%;
+    max-width: 320px;
+    max-height: 168px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 16px;
+    border: 1px solid #E7E7E7;
+    background: #FBFBFB;
+}
+
+.cards p {
+    display: flex;
+    /* background-color: aqua; */
+    margin: 0;
+}
+
+.card-lorem {
+    display: flex;
+    color: #484848;
+    font-family: Inter;
+    font-size: 1.063rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112%; /* 19.04px */
+    letter-spacing: -0.85px;
+}
+
+.card-owner {
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.063rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 112%; /* 19.04px */
+    letter-spacing: -0.85px;
+}
+
+.card-company {
+    display: flex;
+    color: #46A50D;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112%; /* 15.68px */
+    letter-spacing: -0.7px;
+}
+
+
+
+/* For tablets and small screens */
+@media (max-width: 768px) {
+    .header {
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    .right-section {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+    
+    .left-section {
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .title-c {
+        width: 70%;
+    }
+    
+    .design {
+        font-size: 4rem;
+    }
+    
+    .design-p {
+        width: 65%;
+        font-size: 1.25rem;
+    }
+
+    .earth {
+        margin-bottom: -80px;
+    }
+    
+    .project {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+
+    .lorem-project{
+        width: 57%;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        /* background-color: #B1F08B; */
+    }
+
+    .project-example {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(70%, 1fr)); /* Adjust as needed */
+        grid-auto-rows: auto;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #e852ee; */
+        height: auto;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    .project-works {
+        width: 70%; /* 70% width */
+        margin: 0 auto; /* Center horizontally */
+    }
+
+    .project-works img {
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    
+    
+    .project-lorem {
+        width: 100%;
+    }
+    
+    .client {
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .client-lorem {
+        margin-top: -40px;
+
+    }
+
+    .client-text{
+        font-size: 1.5rem;
+    }
+    
+    .client-right {
+        align-self: flex-end;
+        margin-top: 1rem;
+    }
+
+
+    
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, 1fr); /* Two rows */
+        gap: 10px;
+        
+    }
+    
+    .cards {
+        width: 80%;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .header {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .right-section {
+        align-items: flex;
+        font-size: 0.6rem;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: -15px;
+        font-weight: 600;
+
+    }
+
+    .name {
+        margin: 0;
+        margin-right: -50px;
+    }
+    
+    .left-section {
+        align-items: center;
+        
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .contact-button {
+        font-size: 0.6rem;
+        padding: 8px 16px;
+
+    }
+
+    .title-c {
+        width: 100%;
+        
+    }
+
+    .save {
+        padding: 8px 16px;
+
+    }
+    
+    .design {
+        font-size: 2.5rem;
+
+    }
+    
+    .design-p {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .design-button {
+        font-size: 0.6rem;
+        padding: 8px 16px;
+    }
+    
+    .project {
+        width: 100%;
+    }
+
+    .project-example {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(70%, 1fr)); /* Adjust as needed */
+        grid-auto-rows: auto;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #e852ee; */
+        height: auto;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    .project-works img {
+        width: 100%;
+        object-fit: cover;
+        
+    }
+    
+    .lorem-project {
+        width: 85%;
+    }
+
+    .project-lorem {
+        width: 100%;
+        height: auto;
+        /* background-color: #B1F08B; */
+    }
+
+    .time-circle{
+    width: 48px;
+    height: 48px;
+    }
+
+    .recent {
+        font-size: 2.5rem;
+
+    }
+
+    .project-lorem {
+        width: 100%;
+        font-size: 1.125rem;
+
+    }
+    
+    .client {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .client-text {
+        font-size: 1.5rem;
+
+    }
+
+    .client-lorem {
+        font-size: 1.125rem;
+        /* background-color: aqua; */
+    }
+    
+    .client-right {
+        align-self: flex-end;
+        gap: 4px;
+    }
+
+    .button-left {
+        font-size: 0.85rem;
+        padding: 4px 8px;
+    }
+
+    .button-right {
+        font-size: 0.85rem;
+        padding: 8px 16px;
+    }
+    
+    .earth {
+        width: 95%;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, 1fr); /* Two rows */
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    .card-lorem {
+        font-size: 0.85rem;
+    }
+    
+    .card-owner {
+    font-size: 0.85rem;
+    }
+
+    .card-company {
+    font-size: 0.85rem;
+
+    }
+
+    .cards {
+        width: 80%;
+
+    }
+}
+
+/* Adjustments for project-works */
+@media (max-width: 768px) {
+    .project-example {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .project-works {
+        max-width: 48%; /* Two items per row on tablets and small screens */
+    }
+
+    .overlay-text {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-example {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .project-works {
+        max-width: 100%; /* One item per row on small screens */
+    }
+
+    .overlay-text {
+        font-size: 0.75rem;
+    }
 }
